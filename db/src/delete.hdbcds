@@ -1,0 +1,10 @@
+namespace HANA_PROJECT.db;
+
+context delete {
+    entity t {
+        name : String(10);
+    }
+    technical configuration {
+        row store;
+    }
+};
